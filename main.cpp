@@ -7,7 +7,7 @@
 #elif _WIN32
 	PPEB pPEB = (PPEB)__readfsdword(0x30);
 #endif
-#define NEW_STREAM L":szymoek"
+#define NEW_STREAM L":astream"
 
 using namespace std;
 extern "C" { PTEB getTEB(); }
